@@ -42,3 +42,16 @@ class Solution:
 
 
 ## THE CODE IT SELF IS SELF EXPLANATORY
+
+# BETTER EXPLANATION : 
+
+# This solution works as follows:
+# First, we check if the lengths of the two strings are different. If they are, they can't be anagrams, so we return False.
+# We create two dictionaries, count_s and count_t, to store the count of each character in strings s and t respectively.
+# We iterate through each character in string s:
+# For each character, we increment its count in count_s.
+# The get(char, 0) method returns the current count of the character if it exists, or 0 if it doesn't.
+# We do the same for string t, counting characters in count_t.
+# Finally, we compare the two dictionaries. If they are equal, it means both strings have the same characters with the same frequencies, so they are anagrams.
+# This solution has a time complexity of O(n), where n is the length of the input strings, as we iterate through each string once. The space complexity is O(k),
+# where k is the number of unique characters in the strings (which is bounded by the size of the character set, typically 26 for lowercase English letters).
