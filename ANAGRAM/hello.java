@@ -27,7 +27,7 @@ class Solution {
 // We iterate through both strings simultaneously.
 // For each character in s, we increment the count at its corresponding index in store.
 // For each character in t, we decrement the count at its corresponding index.
-// s.charAt(i) - 'a' converts the character to its array index (e.g., 'a' becomes 0, 'b' becomes 1).
+// s.charAt(i) - 'a' converts the characte r to its array index (e.g., 'a' becomes 0, 'b' becomes 1).
 // Check Counts:
 // After processing both strings, we iterate through the store array.
 // If any count is not zero, it means the strings have different character frequencies, so we return false.
